@@ -1,0 +1,72 @@
+
+body {
+    color: black;
+}
+
+.title {
+  color: black;
+  font-family:sans-serif;
+}
+
+
+.TitlePage {
+  background-image: url(spaceGSc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    top: 0;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    backdrop-filter: blur(2px);
+  }
+  
+.active {
+    backdrop-filter: blur(3px);
+  }
+
+li a:hover:where(.active) {
+    backdrop-filter: blur(2px);
+  }
+
+
+.parallax {
+    background-image: url(spaceGSc.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+

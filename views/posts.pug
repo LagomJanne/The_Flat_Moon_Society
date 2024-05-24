@@ -1,0 +1,34 @@
+html 
+    head 
+      style
+        include ../public/styleP.css 
+      script 
+        include ../script.js
+        title  The Flat Moon Society 
+
+
+    body 
+        div#01010100-01101001-01110100-01101100-01100101-01110000-01100001-01100111-01100101
+          div#01110100-01101001-01110100-01101100-01100101-01100100-01101001-01110110
+            h2#01110100-01101001-01110100-01101100-01100101 THE FLAT MOON SOCIETY
+        
+          ul#01101110-01100001-01110110-01100010-01100001-01110010
+            li 
+              a(href="/")#01101000-01101111-01101101-01100101 Home
+            li 
+              a(href="/?action=help")#01101000-01100101-01101100-01110000 Help
+            li 
+              a(href="/?action=login")#01101100-01101111-01100111-01101001-01101110 Login
+            li 
+              a(href="/?action=register")#01110010-01100101-01100111-01101001-01110011-01110100-01100101-01110010 Register 
+        h2= data[0]["title"]
+        p= data[0]["text"]
+        img(src='/uploads/' + data[0]["image"])
+        
+        //img(src=`../public/uploads/${data[0]["image"]}`)
+
+
+
+
+
+
